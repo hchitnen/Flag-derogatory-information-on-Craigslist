@@ -1,7 +1,7 @@
 ### Flag-derogatory-information-on-Craigslist
 Developed a text analytics model to identify and flag derogatory, hate comments on the Craigslist platform
 
-**Project Overview**
+### Project Overview
 
 In today's digital landscape, online platforms face a pressing challenge in moderating user-generated content to maintain a safe and welcoming environment. Craigslist, is no exception. The platform's open nature, while fostering a vibrant community, also renders it susceptible to misuse through the posting of inappropriate or adult content. To address this issue and enhance user experience, we propose the development of an Automated Content Moderation System leveraging machine learning technology.
 
@@ -22,8 +22,6 @@ From the sections specified, we have scraped around **4652 records** to create o
 
 Once the data is collected, the next critical step is the manual annotation process. We have manually labelled all the 4652 records as derogatory (1) or non-derogatory (2). This manual intervention is crucial for creating an accurately annotated dataset, which forms the backbone of our training process.
 
-<img width="816" alt="image" src="https://github.com/hchitnen/Flag-derogatory-information-on-Craigslist/assets/148294077/9f0fb619-e050-4068-bc4c-4579a1175886">
-
 <img width="864" alt="image" src="https://github.com/hchitnen/Flag-derogatory-information-on-Craigslist/assets/148294077/7e98a710-cb2b-43aa-a08b-b5c3b740dcd2">
 
 ### Model Development
@@ -34,18 +32,18 @@ The development process involves several stages, beginning with data preprocessi
 
 <img width="841" alt="image" src="https://github.com/hchitnen/Flag-derogatory-information-on-Craigslist/assets/148294077/3133ba71-fec1-495b-a2fb-f907c9521917">
 
-Text Representation Techniques:
+#### Text Representation Techniques:
 
 1. **Tokenization:** This is the first step in text processing where the text is split into
 individual words or tokens.
 2. **Lemmatization:** Here, words are reduced to their base or dictionary form
 3.  **Stop Words Removal:** Common words like 'is', 'and', 'the', etc., which may not contain important meaning, are removed. This helps in focusing on words which contribute to the understanding of the text's sentiment or classification.
 
-Document Embedding:
+#### Document Embedding:
 
 **TF-IDF (Term Frequency-Inverse Document Frequency):** This technique evaluates how relevant a word is to a document in a collection of documents. It's useful in weighting terms and understanding the importance of words in different contexts.
 
-Word Embedding:
+#### Word Embedding:
 
 **GloVe (Global Vectors for Word Representation):** It's an unsupervised learning algorithm for obtaining vector representations for words. By capturing word co-occurrences, GloVe provides word embeddings that provide meanings based on global word-word co-occurrence matrix.
 **BERT (Bidirectional Encoder Representations from Transformers):** A more advanced technique that uses Transformers to understand the context of a word in a sentence. BERT's bidirectional nature allows it to capture the meaning of a word based on the entire context, which is a significant advancement over previous methods that looked at words in isolation.
