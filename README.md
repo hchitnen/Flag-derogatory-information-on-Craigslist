@@ -1,4 +1,4 @@
-### Flag-derogatory-information-on-Craigslist
+## Flag-derogatory-information-on-Craigslist
 Developed a text analytics model to identify and flag derogatory, hate comments on the Craigslist platform
 
 ### Project Overview
@@ -30,7 +30,8 @@ The data analysis phase of this project involves the development and implementat
 
 The development process involves several stages, beginning with data preprocessing to clean and structure Craigslist's diverse datasets. We also tried to extract information as to how users are able to get around the algorithm and misuse the platform and find a trend in such behaviours. The core of the process is the modelling stage, where various algorithms are applied and tuned to predict such behaviours and flag such content before it is posted on the website.
 
-<img width="841" alt="image" src="https://github.com/hchitnen/Flag-derogatory-information-on-Craigslist/assets/148294077/3133ba71-fec1-495b-a2fb-f907c9521917">
+<img width="877" alt="image" src="https://github.com/hchitnen/Flag-derogatory-information-on-Craigslist/assets/148294077/abcaf19c-f109-4bd3-a9cb-50a4f87bf433">
+
 
 #### Text Representation Techniques:
 
